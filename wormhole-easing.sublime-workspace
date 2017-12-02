@@ -520,13 +520,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Easing</title>\n	<script src=\"Vector.js\"></script>\n</head>\n<body>\n	<canvas id=\"canvas\" style=\"border: 1px solid black\"></canvas>\n	<script src=\"Easing 3.2.js\"></script>\n\n</body>\n</html>",
-			"file": "easing demo/Easing.html",
-			"file_size": 255,
-			"file_write_time": 1450799049000000,
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 266,
 				"line_ending": "Unix"
 			}
 		}
@@ -647,6 +644,8 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wormhole-easing/Easing.html",
+		"/Applications/MAMP/htdocs/wormhole-easing/easing demo/Easing.html",
 		"/Applications/MAMP/htdocs/kiphlora.github.io/css/theme.css",
 		"/Applications/MAMP/htdocs/kiphlora.github.io/theme.css",
 		"/Applications/MAMP/htdocs/l-systems/js/Branch.js",
@@ -772,9 +771,7 @@
 		"/Applications/MAMP/htdocs/Oak Trees/circle-with-bars-along-circumference-3/index.html",
 		"/Applications/MAMP/htdocs/Oak Trees/circle-with-bars-along-circumference-2/index.html",
 		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-comet-tail-rotation-4/Particle.js",
-		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-comet-tail-rotation-4/HelperFunctions.js",
-		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-comet-tail-rotation-4/Emitter.js",
-		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-comet-tail-rotation-4/index.html"
+		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-comet-tail-rotation-4/HelperFunctions.js"
 	],
 	"find":
 	{
@@ -941,23 +938,22 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "easing demo/Easing.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								266,
+								266
 							]
 						],
 						"settings":
