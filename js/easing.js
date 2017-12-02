@@ -1,6 +1,6 @@
 var canvas = document.getElementById("canvas");
-canvas.width = 1400;
-canvas.height = 600;
+canvas.width = window.innerWidth * 0.95;
+canvas.height = window.innerHeight * 0.95;
 var ctx = canvas.getContext("2d");
 var raf;
 
@@ -44,10 +44,10 @@ canvas.addEventListener("click", function(e){
 function activateAnimation() {
 	var newX, newY, newVec;
 	do {
-		newX = Vec2.genRandomInt(100, canvas.width-100);
-		newY = Vec2.genRandomInt(100, canvas.height-100);
+		newX = Vec2.genRandomInt(50, canvas.width-50);
+		newY = Vec2.genRandomInt(50, canvas.height-50);
 		newVec = new Vec2(newX, newY);
-	} while(Vec2.dist(newVec, mousePos) < 700);
+	} while(Vec2.dist(newVec, mousePos) < 400);
 	mousePos = new Vec2(newX, newY);
 	// aCircle.addAnimation(mousePos, 1000);
 	for (var i=0; i<circles.length; i++) {
@@ -159,7 +159,7 @@ Animation.smoothEasing = function(t){ return (t * t * (3 - 2 * t)); };
 
 // create the circles
 var circles = [];
-var numOfCircles = 40;
+var numOfCircles = 30;
 for (var i=0; i<numOfCircles; i++){
 	var colInterp = interpolateVal(1,0,numOfCircles);
 	circles[i] = new Circle(new Vec2(200,200), (i+1)*3, "rgba(0,0,255,"+colInterp(i)+")", "orange", 4);
